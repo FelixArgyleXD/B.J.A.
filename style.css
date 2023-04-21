@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+html, body {
+     height: 100%;
+      margin:0;
+     width: 100%;
+     background-color: #D11C1C 
+}
+ #navbar {
+     overflow: hidden;
+     background-color: #DC5B11;
+     position: fixed;
+     top:0;
+     left:0;
+     right:0;
+   
+}
+ #navbar a:hover {
+     background-color: #BB4C0D 
+}
+ #navbar a {
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     float: left;
+     text-align: center;
+     padding: 14px;
+     text-decoration: none;
+     font-family: 'gloock';
+     text-shadow: 3px 3px 10px #6C1212;
+     border-style: solid;
+     border-width: 1px;
+}
+ .center {
+     text-align:center 
+}
+ .content {
+     padding: 16px;
+}
+ .sticky {
+     position: fixed;
+     top: 0;
+     width: 100%;
+}
+ .sticky + .content {
+     padding-top: 60px;
+}
+ .column {
+     float: left;
+     width: 33.333333%;
+     height: 1000px;
+}
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+ .row {
+     text-align: center;
+}
+ .flex-container {
+     background-color: #DC5B11;
+     padding-top: 40px;
+     flex-wrap: wrap;
+     display: flex;
+     justify-content: center;
+}
+ .FlexTitle{
+     width:100%;
+     background-color: #DC5B11;
+     padding-top: 40px;
+     flex-wrap: wrap;
+     display: flex;
+     justify-content: center;
+     background-image: url("https://th.bing.com/th/id/R.92f278870f9b3e5b12e105acff5e8482?rik=SEVJaQu6kcaCkQ&riu=http%3a%2f%2fb.rgbimg.com%2fcache1r8B47%2fusers%2fm%2fmz%2fmzacha%2f600%2fnbIFPF8.jpg&ehk=422WLPpt%2boi7VjzvDaXwN57zKcVS0O1ZsBU%2bcozmxGo%3d&risl=&pid=ImgRaw&r=0");
+}
+ .FlexTitle h1{
+  Text-align:center;
+  background-color:#DC5B11;
+  border-radius:10px;
+  max-width: 500px;
+  padding:20px;
+  color:white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+  text-decoration-line: underline;
+  text-decoration-color: white;  
+}
+img {
+  border-radius: 50%;
+}
+.dotted {
+  border-style: dotted solid;
+  border-width: thick;
+  border-color: white;
+  
+}
+.dashed {
+  border-style: dashed;
+  border-width: thick;
+  border-color: white;
+}
+.dashedttl {
+  border-style: dashed;
+  border-width: thick;
+  border-color: white;
+}
+h1 {
+  font-family: gloock;
+  color: white;
+  text-shadow: 3px 3px 10px #6C1212;
+}
+**h1 {
+  display: inline-block;
+  padding:15px;
+}
